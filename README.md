@@ -38,15 +38,28 @@ cd <repository-directory>
 ---
 
 ### 2. Install Dependencies:
-- **pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ---
 
 ### 🖥️ Running the Chatbot
-- **streamlit run app.py
+- streamlit run app.py
 
 ---
 
 ### Interactive Interface:
-- **Message Box: Type your queries and hit "Enter" for responses.
-- **Sidebar Options: Access the conversation history and adjust settings.
+- Message Box: Type your queries and hit "Enter" for responses.
+- Sidebar Options: Access the conversation history and adjust settings.
+
+---
+
+### 📂 Project Structure
+- intents.json: Defines patterns and responses for various intents.
+- chat_log.csv: Logs all conversations for review.
+- app.py: The Streamlit-based web application.
+- model_training.py: Code to train the intent classification model.
+
+### 🌍 Real-World Applications
+- Customer Support: Automate FAQs for faster customer interaction.
+- Educational Tools: Act as a virtual assistant for learning platforms.
+- Personal Assistants: Provide reminders, updates, and personalized recommendations.
