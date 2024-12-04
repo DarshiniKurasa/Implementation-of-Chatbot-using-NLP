@@ -38,15 +38,15 @@ cd <repository-directory>
 ---
 
 ### 2. Install Dependencies:
-pip install -r requirements.txt
+- **pip install -r requirements.txt
 
 ---
 
 ### 🖥️ Running the Chatbot
-streamlit run app.py
+- **streamlit run app.py
 
 ---
 
-Interactive Interface:
-Message Box: Type your queries and hit "Enter" for responses.
-Sidebar Options: Access the conversation history and adjust settings.
+### Interactive Interface:
+- **Message Box: Type your queries and hit "Enter" for responses.
+- **Sidebar Options: Access the conversation history and adjust settings.
